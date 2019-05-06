@@ -6,7 +6,7 @@ Execution Sequence :
 2. Move the newly created name(number) folder in a people folder
 3. Execute Siamese_Test.py
 4. Create Database of name new2 (command : use new2)
-   Create Collection of name pa (command : db.createCollection('pa'))
-   Insert 'attendance' as 0 for all the 'name' (command : db.pa.insert({"name":"<name>","attendance":0}))
-5. Execute FaceRecognizer.py
+5. Create Collection of name pa (command : db.createCollection('pa'))
+6. Insert 'attendance' as 0 for all the 'name' (command : db.pa.insert({"name":"<name>","attendance":0}))
+7. Execute FaceRecognizer.py
  
